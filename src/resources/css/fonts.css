@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*노토산스 KR*/
+@font-face{
+	font-family:'ntk';
+	font-weight:300;
+	font-style: normal;
+	src:url("../font/NotoSansKR-Light.eot");
+	src:url("../font/NotoSansKR-Light.eot?#iefix") format('embedded-opentype'),
+		url("../font/NotoSansKR-Light.woff") format('woff'),
+		url("../font/NotoSansKR-Light.woff2") format('woff2');
+}
+
+
+@font-face{
+	font-family:'ntk';
+	font-weight:600;
+	font-style: normal;
+	src:url("../font/NotoSansKR-Regular.eot");
+	src:url("../font/NotoSansKR-Regular.eot?#iefix") format('embedded-opentype'),
+		url("../font/NotoSansKR-Regular.woff") format('woff'),
+		url("../font/NotoSansKR-Regular.woff2") format('woff2');
+}
+
+@font-face{
+	font-family:'ntk';
+	font-weight:900;
+	font-style: normal;
+	src:url("../font/NotoSansKR-Bold.eot");
+	src:url("../font/NotoSansKR-Bold.eot?#iefix") format('embedded-opentype'),
+		url("../font/NotoSansKR-Bold.woff") format('woff'),
+		url("../font/NotoSansKR-Bold.woff2") format('woff2');
+} 
+
+
+

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+body{
+    margin:0;
+    background: linear-gradient(to right, #25c481, #25b7c4);
+}
+
+h1{
+    color: white;
+}
+.wri{
+    background:#25c481;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    width:100px;
+}
+.x{background-color: rgba(255, 255, 255, 0.3);}

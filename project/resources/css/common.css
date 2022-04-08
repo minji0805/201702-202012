@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+html {-ms-overflow-style: scrollbar; -ms-text-size-adjust: 100%; }
+html{font-size:16px;}
+@media (max-width: 1500px) {
+	html{font-size:15px;}
+}
+@media (max-width: 1200px) {
+	html{font-size:14px;}
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { color:#777; padding:0; margin:0; line-height:1.5rem; font-size:1rem; font-weight:600;  letter-spacing: -0.6px; font-family:"ntk", 'open_sans', "돋움", dotum, sans-serif; word-break: break-word; -webkit-text-size-adjust:none;}
+
+ol, ul, li { list-style:none; }
+h1, h2, h3, h4, h5, h6 {font-size:100%; color:#333;}
+form, fieldset { border:0; }
+address, caption, em { font-style:normal; }
+img { border:0;  padding:0; max-width: 100%; margin:0 auto;}
+caption, legend { overflow: hidden;width: 0; height: 0; font-size: 0;line-height: 0;    padding-top: 0;padding-bottom: 0;}
+
+a {text-decoration: none;line-height: inherit; }
+a:link,
+a:visited{color:#303030;}
+a:hover,
+a:focus,
+a:active{color: #1990ca; text-decoration: underline;}
+a img {border: none;}
+* {margin: 0;padding: 0;box-sizing: border-box;}
+
+/* 드래그시 배경컬러 */
+::-moz-selection {background:#31aae4; color:#fff;}
+::selection {background:#31aae4; color:#fff;}
+
+
+/* selector */
+*::-webkit-input-placeholder,*::-moz-placeholder,::-ms-input-placeholder,input:-moz-placeholder{color:#000 !important}
+::selection{background:#31aae4;color:#fff}
+::-moz-selection{background:#31aae4;color:#fff}
+
+
+*:focus{outline: none !important;}
+.btn.active, .btn:active {box-shadow: none; }
